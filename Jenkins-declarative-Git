@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git 'https://github.com/gorakshan/demo.git'
+                echo "welcome to jenkins"
             }
         }
     }
